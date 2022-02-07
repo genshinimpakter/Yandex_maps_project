@@ -4,7 +4,7 @@ from PyQt5 import uic  # Импортируем uic
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
 
-class MyWidget(QMainWindow):
+class MapShower(QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi('app_des.ui', self)  # Загружаем дизайн
@@ -12,6 +12,6 @@ class MyWidget(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    ex = MyWidget()
+    ex = MapShower()
     ex.show()
     sys.exit(app.exec_())
