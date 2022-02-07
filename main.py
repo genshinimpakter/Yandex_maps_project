@@ -15,5 +15,3 @@ if __name__ == '__main__':
     ex = MapShower()
     ex.show()
     sys.exit(app.exec_())
-
-""""""
